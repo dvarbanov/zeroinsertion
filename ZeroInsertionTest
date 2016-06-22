@@ -1,0 +1,11 @@
+package com.hackbulgaria.qa.week1;
+
+public class ZeroInsertionTest {
+
+	public static void main(String[] args){
+		
+		ZeroInsertionImpl test = new ZeroInsertionImpl();
+		System.out.println(test.zeroInsertion(111346));
+	}
+	
+}
