@@ -1,0 +1,20 @@
+package com.hackbulgaria.qa.week1;
+
+public class ZeroInsertionImpl implements ZeroInsertion{
+	public String zeroInsertion(int n){
+		
+		int x, y;
+	    String str = "";
+	    
+		while (n>0){
+		    x = n%10;
+		    n /= 10;
+		    y = n%10;
+		    str = x + str;
+		    if(x==y || (x+y)%10==0){
+		       str = 0 + str;
+		       }	
+		}
+		    return str;
+		}
+}
